@@ -1,0 +1,5 @@
+[import]
+python = 'C:\Users\basti\OneDrive - Enari\__Coding__\nantislib\.venv-pdf\Scripts\python.exe'
+library = 'C:\Users\basti\OneDrive - Enari\__Coding__\nantislib\src'
+model = 'D:\models\Qwen3-VL-4B-Instruct'
+ocr = 'C:\Users\basti\OneDrive - Enari\__Coding__\nantislib\.statement-work\models\latin_PP-OCRv3_rec_mobile.onnx'

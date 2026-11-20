@@ -1,0 +1,27 @@
+[project]
+name = "mastercard-helper"
+version = "0.1.0"
+description = "Lokale Excel-basierte Übersicht fehlender Belege"
+authors = [{name = "Enari"}]
+dynamic = ["dependencies", "requires-python"]
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+streamlit = ">=1.53,<2"
+openpyxl = ">=3.1,<4"
+pandas = ">=2.2,<3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = ">=8,<10"
+playwright = "^1.65.2"
+
+[build-system]
+requires = ["poetry-core>=2.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -208,6 +208,10 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Private Abrechnungen und Laufzeitdaten
+data/
+prototype-data/
+
 # Ruff stuff:
 .ruff_cache/
 
